@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet" />
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+
+        <title>BlackPink AI Face matching Test</title>
+        <meta name="title" content="BlackPink AI Face matching Test" />
+        <meta
+            name="subject"
+            content="얼굴로 보는 인공지능 BlackPink AI Face matching Test, 나와 닮은 멤버를 찾아보세요!"
+        />
+        <meta
+            name="keywords"
+            content="BlackPink AI Face matching Test, 인공지능 BlackPink AI Face matching Test, 닮은 얼굴, 닮은 얼굴 테스트, 나와 닮은 레드벨벳, 레드벨벳 얼굴 찾기, 얼굴로 보는 레드벨벳, 얼굴 레드벨벳, 레드벨벳얼굴, redvelvetface, 아이린상, 조이상, 슬기상, 예리상, 웬디상, 인공지능 레드벨벳상, AI 레드벨벳상, AI 연예인상"
+        />
+        <meta
+            name="description"
+            content="얼굴로 보는 인공지능 BlackPink AI Face matching Test, 나와 닮은 레드벨벳 멤버를 찾아보세요!"
+        />
+        <meta name="author" content="inhmcoding" />
+
+        <meta property="og:url" content="https://redvelvetface.netlify.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="BlackPink AI Face matching Test" />
+        <meta
+            property="og:description"
+            content="얼굴로 보는 인공지능 BlackPink AI Face matching Test, 나와 닮은 레드벨벳 멤버를 찾아보세요!"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script
+            type="text/javascript"
+            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fce3cf901ff985f"
+        ></script>
+        <meta name="naver-site-verification" content="4be993accca059ca3cb9186853409911bd932991" />
+        <link rel="canonical" href="https://redvelvetface.netlify.app.html" />
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77842517-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-77842517-1');
+</script>
+
+    </head>
+
+    <body>
+        <nav class="p-3 container navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">BlackPink AI Face matching Test</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link active" aria-current="page" href="#"
+                            >BlackPink AI Face matching Test<span class="sr-only"></span></a
+                        >
+            
+                </ul>
+            </div>
+        </nav>
+
+        <section class="section">
+            <h1 class="title">BlackPink AI Face matching Test</h1>
+            <h2 class="subtitle">Which BlackPink member do you resemble the most?</h2>
+            <h3 class="subtitle">
+               AI Face Matching Test
+      
+        </section>
+        <script
+            class="jsbin"
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
+        ></script>
+        <div class="mt-3 container file-upload">
+            <div class="image-upload-wrap">
+                <input
+                    class="file-upload-input"
+                    type="file"
+                    onchange="readURL(this);"
+                    accept="image/*"
+                />
+                <div class="drag-text">
+                    <img src="img/upload.png" class="mt-5 pt-5 upload" />
+                    <h3 class="mt-5 pb-5 pt-4 upload-text">
+                        DRAG AND DROP YOUR PHOTO OR TAP HERE TO UPLOAD ITT 
+                    </h3>
+                </div>
+            </div>
+            <div class="file-upload-content">
+                <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+                <div id="loading" class="animated bounce">
+                    <div class="spinner-border" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <p class="text-center">AI is analyzing your face</p>
+                </div>
+                <p class="result-message"></p>
+                <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox"></div>
+
+                <div class="pt-3 image-title-wrap">
+                    <button
+                        type="button p-2"
+                        class="try-again-btn"
+                        onclick="gaReload1();"
+                        data-toggle="modal"
+                        data-target="#adModal"
+                    >
+                        <span class="try-again-text">Try Again</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <footer class="footer pt-5 container d-flex justify-content-center"></footer>
+<div class="subtitle" >
+                <p>&copy; MinseokChoi 2021. All Rights Reserved.</p>
+            </div>
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="adModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="adModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="adModalLabel">
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center">
+                        <!-- <ins
+                            class="kakao_ad_area"
+                            style="display: none;"
+                            data-ad-unit="DAN-Lgo1GzXz34bSd6sY"
+                            data-ad-width="300"
+                            data-ad-height="250"
+                        ></ins> -->
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button p-2" class="try-again-btn" onclick="gaReload2();">
+                            <span class="try-again-text">Try Again</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="label-container"></div>
+        <div id="disqus_thread"></div>
+        <script>
+            function gaReload1() {
+                gtag('event', 'Try Again 1차', {
+                    event_category: 'Try Again',
+                });
+            }
+            function gaReload2() {
+                gtag('event', 'Try Again 2차', {
+                    event_category: 'Try Again',
+                });
+                window.location.reload();
+            }
+        </script>
+
+       
+
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!-- 
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+            integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+            crossorigin="anonymous"
+        ></script> -->
+
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+        <script>
+            function readURL(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload = function (e) {
+                        $('.image-upload-wrap').hide();
+                        $('#loading').show();
+                        $('.file-upload-image').attr('src', e.target.result);
+                        $('.file-upload-content').show();
+                        $('.image-title').html(input.files[0].name);
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                    init().then(function () {
+                        console.log('hello');
+                        predict();
+                        $('#loading').hide();
+                    });
+                } else {
+                    removeUpload();
+                }
+            }
+
+            function removeUpload() {
+                $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+                $('.file-upload-content').hide();
+                $('.image-upload-wrap').show();
+            }
+            $('.image-upload-wrap').bind('dragover', function () {
+                $('.image-upload-wrap').addClass('image-dropping');
+            });
+            $('.image-upload-wrap').bind('dragleave', function () {
+                $('.image-upload-wrap').removeClass('image-dropping');
+            });
+        </script>
+        <script type="text/javascript">
+            const URL = 'https://teachablemachine.withgoogle.com/models/ntSKjRogT/';
+
+            let model, webcam, labelContainer, maxPredictions;
+
+            // Load the image model and setup the webcam
+            async function init() {
+                const modelURL = URL + 'model.json';
+                const metadataURL = URL + 'metadata.json';
+                model = await tmImage.load(modelURL, metadataURL);
+                maxPredictions = model.getTotalClasses();
+                labelContainer = document.getElementById('label-container');
+                for (let i = 0; i < maxPredictions; i++) {
+                    var element = document.createElement('div');
+                    element.classList.add('d-flex');
+                    labelContainer.appendChild(element);
+                }
+            }
+            // run the webcam image through the image model
+            async function predict() {
+                var image = document.getElementById('face-image');
+                const prediction = await model.predict(image, false);
+                prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+                var resultTitle, resultExplain;
+                switch (prediction[0].className) {
+                    case 'Rosé ':
+                        resultTitle = 'Rosé';
+                        resultExplain = 'You look like Rosé! She is the lead vocalist and main dancer in BlackPink. She is talented at singing and dancing. She is maknae which means that she is the youngest member in BlackPink. She is 24 years old. Her real name is Roseanne Park. Her height is 1.68m. She is cute and pretty!';
+                        break;
+                    case 'Lisa':
+                        resultTitle = 'Lisa';
+                        resultExplain = 'You resemble Lisa!! She is the main dancer, lead rapper and supporting vocalist. She is maknae which means that she is the youngest member in BlackPink. She is 24 years old. Her real name is Lalisa Manoban. Her height is 1.67m. She is cute and also very charismatic. ';
+                        break;
+                    case 'Jisoo':
+                        resultTitle = 'Jisoo';
+                        resultExplain = 'You resemble Jisoo! She is the lead vocalist and visualist of BlackPink. She is the eldest member in BlackPink. Her real name is Jisoo Kim. Her height is 1.62m. She is considered as the most beautiful member in BlackPink.';
+                        break;
+                    case 'Jennie':
+                        resultTitle = 'Jennie';
+                        resultExplain = 'You look like Jennie! She is the main rapper of BlackPink. She is 25 years old. She is talented at rap. Her real name is Jennie Kim. Her height is 1.63m. She is considered as the cutest member in BlackPink';
+                        break;
+                    default:
+                        resultTitle = '';
+                        resultExplain = '';
+                        break;
+                }
+                var title =
+                    "<div class='" +
+                    prediction[0].className +
+                    "-red-title'>" +
+                    resultTitle +
+                    '</div>';
+                var explain = "<div class='red-explain pt-2'>" + resultExplain + '</div>';
+                $('.result-message').html(title + explain);
+                var barWidth;
+                for (let i = 0; i < maxPredictions; i++) {
+                    if (prediction[i].probability.toFixed(2) > 0.1) {
+                        barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
+                    } else if (prediction[i].probability.toFixed(2) >= 0.01) {
+                        barWidth = '4%';
+                    } else {
+                        barWidth = '2%';
+                    }
+                    var labelTitle;
+                    switch (prediction[i].className) {
+                        case 'Rosé':
+                            labelTitle = 'Rosé';
+                            break;
+                        case 'Lisa':
+                            labelTitle = 'Lisa';
+                            break;
+                        case 'Jennie':
+                            labelTitle = 'Jennie';
+                            break;
+                        case 'Jisoo':
+                            labelTitle = 'Jisoo';
+                            break;
+                        default:
+                            labelTitle = '';
+                    }
+                    var label =
+                        "<div class='red-label d-flex align-items-center'>" + labelTitle + '</div>';
+                    var bar =
+                        "<div class='bar-container position-relative container'><div class='" +
+                        prediction[i].className +
+                        "-box'></div><div class='d-flex justify-content-center align-items-center " +
+                        prediction[i].className +
+                        "-bar' style='width: " +
+                        barWidth +
+                        "'><span class='d-block percent-text'>" +
+                        Math.round(prediction[i].probability.toFixed(2) * 100) +
+                        '%</span></div></div>';
+                    labelContainer.childNodes[i].innerHTML = label + bar;
+                }
+            }
+        
+        </script>
+  </ins>
+          
+        <div
+            class="box effect1"
+            onclick="javascript:location.replace('https://skyagafe.netlify.app/bts/en');"
+        >
+            <h3>
+                <a href="https://skyagafe.netlify.app/bts/en" style="color: #000000;">BTS</a>
+            </h3>
+        </div>
+        <div
+            class="box effect2"
+            onclick="javascript:location.replace('https://skyagafe.netlify.app/blackpink/en');"
+        >
+            <h3>
+                <a href="https://skyagafe.netlify.app/blackpink/en" style="color: #000000;">BLACKPINK</a>
+            </h3>
+        </div>
+        <div
+            class="box effect3"
+            onclick="javascript:location.replace('https://skyagafe.netlify.app/twice/en');"
+        >
+            <h3>
+                <a href="https://skyagafe.netlify.app/twice/en" style="color: #000000;">TWICE</a>
+            </h3>
+        </div>
+        <div
+            class="box effect4"
+            onclick="javascript:location.replace('https://skyagafe.netlify.app/exo/en');"
+        >
+            <h3>
+                <a href="https://skyagafe.netlify.app/exo/en" style="color: #000000;">EXO</a>
+            </h3>
+        </div>
+        <div
+            class="box effect1"
+            onclick="javascript:location.replace('https://skyagafe.netlify.app/same');"
+        >
+            <h3>
+                <a href="https://skyagafe.netlify.app/same" style="color: #000000;">look like</a>
+            </h3>
+        </div>
+    </body>
+
+    <!-- Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+</html>
