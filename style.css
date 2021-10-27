@@ -114,6 +114,54 @@ html {
   summary {
     display: block;
   }
+
+  .screen {
+    height: 100%;
+}
+
+.screen .logo {
+    position: absolute;
+    height: 12.3%;
+    right: 0;
+    opacity: 0.5;
+}
+
+.t_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #26292D;
+    color: #FFFFFF;
+    height: 25%;
+}
+
+.t_content center {
+    position: relative;
+    z-index: 2;
+}
+
+.t_content h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.t_content p {
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 9px;
+}
+
+.t_content p:last-child {
+    font-size: 1.1rem;
+    line-height: 20px;
+}
+
+.t_content p:last-child span {
+    font-size: 1.5rem;
+    color: #CFA440;
+    font-weight: bold;
+}
   audio,
   canvas,
   progress,
