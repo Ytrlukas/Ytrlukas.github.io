@@ -1,5 +1,5 @@
 ---
-title: Is coding important?
+title: Is Artificial Intelligence good?
 description: Is coding important?.
 
 ---
