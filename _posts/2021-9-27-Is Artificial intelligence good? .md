@@ -6,7 +6,7 @@ description: Is coding important?.
 
 
 
-###The Advantages of AI
+The Advantages of AI
 
 Advantages of artificial intelligence
 Artificial intelligence is rapidly changing our lives today. In this article, I would like to list and explain in detail the many benefits it brings to our lives.
