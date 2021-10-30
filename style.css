@@ -121,7 +121,7 @@ html {
 
 .screen .logo {
     position: absolute;
-    height: 12.3%;
+    height: 18%;
     right: 0;
     opacity: 0.5;
 }
@@ -161,6 +161,64 @@ html {
     font-size: 1.5rem;
     color: #CFA440;
     font-weight: bold;
+}
+
+.inputWrapper {
+    position: relative;
+    bottom: -18px;
+    height: 48px;
+    max-width: 800px;
+    background: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 999px;
+    margin: 0px 20px 0px 20px;
+    overflow: hidden;
+    text-align: left;
+}
+.inputWrapper .material-icons {
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 48px;
+    color: rgba(164, 164, 164, 0.65);
+    padding-left: 10px;
+}
+.inputWrapper input {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 48px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding-left: 40px;
+}
+
+.inputWrapper input:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.inputWrapper input::-webkit-input-placeholder {color: rgba(164, 164, 164, 0.65);}
+.inputWrapper input:focus::-webkit-input-placeholder {color:transparent; }
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+    display:none;
+}
+
+.inputWrapper .blog{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 11px;
+    color: #CFA440;
+}
+
+.inputWrapper a{
+    text-decoration: none;
 }
   audio,
   canvas,
